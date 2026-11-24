@@ -10,11 +10,11 @@
 
 | Campo              | Informação                        |
 |--------------------|-----------------------------------|
-| **Projeto**        | [Nome do Projeto]                 |
-| **Cliente**        | [Nome do Cliente / Empresa]       |
-| **Responsável**    | [Gerente de Projeto / Tech Lead]  |
-| **Data de Início** | DD/MM/AAAA                        |
-| **Prazo Estimado** | DD/MM/AAAA                        |
+| **Projeto**        | Market Finder                 |
+| **Cliente**        | Projeto interno       |
+| **Responsável**    | Tadashi  |
+| **Data de Início** | 24/11/2026                        |
+| **Prazo Estimado** | Não estimado                        |
 | **Versão**         | 1.0                               |
 | **Revisado por**   | [Nome]                            |
 | **Aprovado por**   | [Nome do Cliente]                 |
@@ -23,7 +23,7 @@
 
 | Versão | Data       | Autor  | Descrição da Alteração         |
 |--------|------------|--------|-------------------------------|
-| 1.0    | DD/MM/AAAA | [Nome] | Criação do documento          |
+| 1.0    | 24/11/2026 | Tadashi | Criação do documento          |
 | 1.1    | DD/MM/AAAA | [Nome] | [Descrição da alteração]      |
 
 ---
@@ -114,6 +114,4 @@ Fase 3             Frontend preenche o mapa tela↔endpoint↔wireframe
 
 ---
 
-*Documento elaborado por [Nome da Empresa Júnior] · Versão [X.X] · [Data]*
-
-> 💡 **Dica para o time:** Sempre que surgir uma dúvida que não está respondida aqui, a resposta não é "vou presumir" — é "vou registrar e alinhar". Decisões não documentadas viram dívidas técnicas e conflitos futuros.
+*Documento elaborado por Tadashi Bello Nagashima · Versão 1.0 · 24/11/2026*

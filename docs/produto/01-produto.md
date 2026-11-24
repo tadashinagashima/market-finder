@@ -1,5 +1,5 @@
 # 🧩 DPP — Parte 1: Produto
-> **[NOME DO PROJETO]** — Versão `1.0` | Status: `Em Elaboração`
+> **Market Finder** — Versão `1.0` | Status: `Em Elaboração`
 
 > 🧭 **Responsável por este arquivo:** Assessores de Produtos · **Valida:** Gerente de Produtos
 > 🌿 **Branch de preenchimento:** `dpp/<ano>-<cliente>/produto` (ver `MANUAL-GIT.md`)
@@ -27,19 +27,15 @@
 
 > Descreva com clareza o problema central que esse projeto resolve. Foque no problema, não na solução. Responda: **o que dói hoje para o cliente/usuário?**
 
-```
-[Exemplo: O cliente gerencia os agendamentos dos clientes via WhatsApp e planilhas,
-o que gera conflitos de horário, perda de informações e experiência ruim para o usuário final.]
-```
+Muitas pessoas já passaram pelo problema de querem economizar na compra do mercado do mês e da semana, mas precisarem pesquisar em diversos supermercados para tentarem encontrar o melhor preço para tudo. Dependendo do produto pode variar de 15% a 200% o preço, principalmente em produtos perecíveis que são os que mais são essenciais para a dieta alimentar da população.
+Diversos fatores afetam essa oscilação de preços, como: logística, sazonalidade, perfil de mercado, localização etc, ficando complexo de tomar a decisão mais assertiva sobre qual mercado ir e o que comprar nele.
+
 
 ### 1.2 Objetivo do Projeto
 
 > Descreva **o que** será entregue e **por quê**. Evite descrever o "como".
 
-```
-[Exemplo: Desenvolver uma plataforma web de agendamentos online que permita ao
-cliente gerenciar sua agenda e aos usuários finais marcar serviços de forma autônoma.]
-```
+O principal entregável será um aplicativo mobile onde será possível fazer o carrinho de compras de um supermercados, o app faz a busca nos mercados da região e mostra qual mercado vai pagar mais barato, além disso, o app mostra as principais ofertas, facilitando assim a tomada de decisão e a economia em compras de mercado.
 
 ### 1.3 Objetivo de Negócio (Resultado Esperado)
 
@@ -47,7 +43,7 @@ cliente gerenciar sua agenda e aos usuários finais marcar serviços de forma au
 
 | Métrica                        | Situação Atual | Meta             |
 |-------------------------------|----------------|-----------------|
-| [Ex: Tempo médio de agendamento] | [Ex: 15 min]  | [Ex: < 2 min]   |
+| Economia de preço em compras de mercado | [Ex: 15 min]  | [Ex: < 2 min]   |
 | [Ex: Conflitos de horário/mês]   | [Ex: ~10]     | [Ex: 0]         |
 
 ### 1.4 Contexto e Motivação
@@ -67,19 +63,19 @@ a contratação deste projeto neste momento.]
 
 | Nome / Papel             | Responsabilidade no Projeto              | Contato          |
 |--------------------------|------------------------------------------|-----------------|
-| [Ex: João — Dono do negócio] | Aprovação final e validação de requisitos | joao@email.com  |
-| [Ex: Maria — Gerente]       | Ponto focal para dúvidas de negócio      | maria@email.com |
+| Usuário comum | Aprovação e relevância do impacto observado |   |
+| Mercados       | Consulta de preços e ofertas      |  |
 
 ### 2.2 Perfis de Usuário (Personas)
 
 > Liste os tipos de usuário que vão interagir com o sistema.
 > ⚠️ Nenhuma persona deve ser preenchida sem a participação dos assessores de Design.
 
-#### Persona 1: [Nome da Persona]
-- **Quem é:** [Ex: Atendente da recepção, 25-40 anos, baixa familiaridade com tecnologia]
-- **Objetivo principal:** [Ex: Visualizar e confirmar agendamentos do dia]
-- **Frustração atual:** [Ex: Precisa consultar 3 ferramentas diferentes para ver a agenda]
-- **Permissões no sistema:** [Ex: Admin / Operador / Leitura]
+#### Persona 1: Cidadão comum
+- **Quem é:** Cidadão comum, 18-60 anos, usuário comum de tecnologia, usa os apps das tendências de mercado e de uso comum.
+- **Objetivo principal:** Visualizar ofertas, realizar carrinho de compras e verificar mercado que oferece maior economia.
+- **Frustração atual:** Muitos fatores para decidir qual mercado tomar e não sabe se tomou a decisão que gera mais economia.
+- **Permissões no sistema:** Leitura
 
 #### Persona 2: [Nome da Persona]
 - **Quem é:** [...]
@@ -96,18 +92,21 @@ a contratação deste projeto neste momento.]
 ### 3.1 O que ESTÁ no escopo
 
 ```
-✅ [Módulo ou funcionalidade 1] — [breve descrição]
-✅ [Módulo ou funcionalidade 2] — [breve descrição]
-✅ [Módulo ou funcionalidade 3] — [breve descrição]
-✅ [Módulo ou funcionalidade 4] — [breve descrição]
+✅ Autenticação e perfil — criação de perfil, login e senha
+✅ Catálogo de ofertas — visualização em grade das principais ofertas do dia/semana/mês dos mercados da região
+✅ Carrinho de compras — adicionar produtos a uma lista
+✅ Visualização de mapa — ver em um mapa os mercados da região
+✅ Comparativo de preços entre estabelecimentos — a partir do mapa, comparar os preços com base no carrinho de compras montado.
+✅ Chat de IA para suporte a tomada de decisão — chat com IA para ajudar a ver melhores alternativas dentre os produtos escolhidos para equilibrar preço, deslocamento, disponibilidade de produtos, avaliação de mercados etc
+✅ Interface de avaliação de estabelecimentos — avaliação dos mercados para o público ter avaliação qualitativa de qual mercado ir.
 ```
 
 ### 3.2 Entregáveis do Projeto
 
 | Entregável                       | Descrição                              | Responsável       |
 |----------------------------------|----------------------------------------|------------------|
-| [Ex: Código-fonte do backend]    | API REST documentada e testada         | Time de Dev      |
-| [Ex: Código-fonte do frontend]   | Interface web responsiva               | Time de Dev      |
+| Aplicativo mobile   | Desenvolvimento de aplicativo com escalabilidade de acesso         | Desenvolvimento      |
+| Identidade Visual e prototipaçãp  | Aplicativo prototipado              | Design      |
 | [Ex: Banco de dados configurado] | Scripts de migration e seed            | Time de Dev      |
 | [Ex: Documentação de deploy]     | README com instruções de configuração  | Tech Lead        |
 
